@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Header Section and Navbar Section deisng */
+
+
+.active {
+  background-color: black;
+}
+
+.navbar{
+  display: flex;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+}
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar ul li a{
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+.active{
+  background-color: black;
+
+}
+.active ul li a{
+  color: white;
+}
+
+/* Top container desing */
+.top-container{
+  background-image: url('https://images.unsplash.com/photo-1661961112835-ca6f5811d2af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-container h1{
+  font-size: 64px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 3px;
+}
+
+.text{
+  margin: 50px 5%;
+  padding: 10px;
+}
